@@ -3,26 +3,150 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chính sách bảo mật - Discord Bot</title>
+  <title>Chính sách bảo mật - ARK Ase Bot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-    h1 { color: #5865F2; }
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f6fa;
+      color: #333;
+      line-height: 1.8;
+      overflow-x: hidden;
+    }
+    header {
+      position: relative;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+                  url('https://wallpapercave.com/wp/wp7843153.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px 120px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    header img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 20px;
+      filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
+    }
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      margin-top: 8px;
+    }
+    main {
+      max-width: 900px;
+      margin: -60px auto 60px;
+      background: white;
+      border-radius: 16px;
+      padding: 40px 50px;
+      box-shadow: 0 6px 30px rgba(0,0,0,0.1);
+      position: relative;
+      z-index: 2;
+    }
+    h2 {
+      color: #5865F2;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #1e1e2f;
+      color: #ccc;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    footer h3 {
+      color: #fff;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    footer a {
+      color: #5865F2;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .divider {
+      width: 60px;
+      height: 3px;
+      background: #5865F2;
+      margin: 16px auto 30px;
+      border-radius: 2px;
+    }
   </style>
 </head>
 <body>
-  <h1>Chính sách bảo mật</h1>
-  <p>Cập nhật lần cuối: 03/10/2025</p>
+  <header>
+    <img src="https://cdn.discordapp.com/attachments/1415408344574984294/1425735243285135371/logogif.gif?ex=68e8aaea&is=68e7596a&hm=1fb93f04ec88ded6764eefaf9cedc1e28fb3edee8d556382266c88f3eaaf4166&" alt="ARK Logo">
+    <h1>Chính sách bảo mật</h1>
+    <p>Áp dụng cho ARK Ase Bot | Cập nhật lần cuối: 03/10/2025</p>
+  </header>
 
-  <h2>1. Thu thập dữ liệu</h2>
-  <p>Bot có thể lưu trữ một số dữ liệu cần thiết để hoạt động (ví dụ: ID người dùng, XP, cấp độ). Bot không thu thập dữ liệu cá nhân ngoài Discord.</p>
+  <main>
+    <section>
+      <h2>1. Thu thập dữ liệu</h2>
+      <p>ARK Ase Bot chỉ lưu trữ các dữ liệu cần thiết để hoạt động, bao gồm:</p>
+      <ul>
+        <li>ID người dùng và máy chủ Discord</li>
+        <li>Điểm kinh nghiệm (XP) và cấp độ</li>
+        <li>Các cài đặt hoặc trạng thái bot trong máy chủ</li>
+      </ul>
+      <p>Bot <strong>không thu thập thông tin cá nhân</strong> ngoài dữ liệu Discord công khai.</p>
+    </section>
 
-  <h2>2. Sử dụng dữ liệu</h2>
-  <p>Dữ liệu chỉ được dùng để vận hành các tính năng của bot, không chia sẻ với bên thứ ba.</p>
+    <section>
+      <h2>2. Mục đích sử dụng dữ liệu</h2>
+      <p>Dữ liệu được sử dụng duy nhất để vận hành tính năng của bot (ví dụ: hệ thống cấp độ, chào mừng thành viên, phát nhạc...).  
+      Dữ liệu sẽ <strong>không được chia sẻ với bên thứ ba</strong> hoặc sử dụng vào mục đích thương mại.</p>
+    </section>
 
-  <h2>3. Bảo mật</h2>
-  <p>Chúng tôi cố gắng bảo vệ dữ liệu, nhưng không đảm bảo an toàn tuyệt đối.</p>
+    <section>
+      <h2>3. Bảo mật</h2>
+      <p>Chúng tôi sử dụng các biện pháp hợp lý để bảo vệ dữ liệu. Tuy nhiên, không có hệ thống nào đảm bảo an toàn tuyệt đối.  
+      Việc sử dụng bot đồng nghĩa với việc bạn chấp nhận rủi ro có thể xảy ra trong môi trường trực tuyến.</p>
+    </section>
 
-  <h2>4. Liên hệ</h2>
-  <p>Nếu có câu hỏi về quyền riêng tư, vui lòng liên hệ qua GitHub Issues hoặc email: <b>vovandung46391@gmail.com</b></p>
+    <section>
+      <h2>4. Quyền của người dùng</h2>
+      <p>Bạn có thể yêu cầu xóa toàn bộ dữ liệu liên quan đến tài khoản Discord của mình bằng cách liên hệ với đội ngũ phát triển.</p>
+    </section>
+
+    <section>
+      <h2>5. Liên hệ</h2>
+      <p>Nếu bạn có bất kỳ câu hỏi hoặc yêu cầu nào liên quan đến quyền riêng tư, vui lòng liên hệ:</p>
+      <ul>
+        <li>Email: <a href="mailto:vovandung46391@gmail.com">vovandung46391@gmail.com</a></li>
+        <li>GitHub Issues: <a href="https://github.com/">https://github.com/</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <h3>ARK Ase Bot</h3>
+    <div class="divider"></div>
+    <p>© 2025 ARK Ase Bot. Mọi quyền được bảo lưu.</p>
+    <p>Theo dõi chúng tôi trên 
+      <a href="https://discord.gg/Bqx9gawVpM">Discord</a> | 
+      <a href="https://github.com/">GitHub</a>
+    </p>
+  </footer>
 </body>
 </html>
